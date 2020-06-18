@@ -1,68 +1,48 @@
 import React from "react";
 import { Button, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import { ThemeProvider } from "@material-ui/core/styles";
-import { buttonTheme } from "../../../theme";
+import { myTheme } from "../../../theme";
 
 const useStyles = makeStyles((theme) => ({
   btn: {
-    height: "4em",
-    width: "4.46em",
+    height: "3em",
+    width: "3.46em",
+    margin: "8px",
   },
   largeButton: {
-    height: "4em",
-    width: "8.9em",
+    height: "2.9em",
+    width: "7.5em",
+    marginTop: "7px",
+    marginBottom: "7px",
+  },
+  equalButton: {
+    backgroundColor: myTheme.palette.myColor.color,
   },
 }));
 
 const CalcButton = (props) => {
   const classes = useStyles();
 
-  const handleClick = () => {
-    console.log(props.value);
-
-    switch (props.value) {
-      case "AC":
-        props.setInputValue("");
-        break;
-      case "<=":
-        var str = props.inputValue;
-        var val = str.substring(0, str.length - 1);
-        props.setInputValue(val);
-        break;
-      case "=":
-        console.log("value :", props.inputValue);
-        try {
-        var ans = eval(props.inputValue);
-        }
-        catch(err){
-            var ans ="error";
-        } 
-        console.log("ans:", ans);
-        props.setInputValue(ans);
-        break;
-      default:
-        props.setInputValue(props.inputValue + props.value);
-    }
-  };
-
   return (
     <div>
-      <ThemeProvider theme={buttonTheme}>
-        <Button
-          className={
-            props.value === "AC" || props.value === "<="
-              ? classes.largeButton
-              : classes.btn
-          }
-          color={props.color}
-          size="medium"
-          variant="contained"
-          onClick={handleClick}
-        >
-          <Typography variant="button"> {props.value}</Typography>
-        </Button>
-      </ThemeProvider>
+      <Button
+        className={
+          (props.value === "AC" || props.value === "<="
+            ? classes.largeButton
+            : classes.btn) +
+          " " +
+          (props.value === "=" ? classes.equalButton : {})
+        }
+        color={props.color}
+        size="medium"
+        variant="contained"
+        onClick={(event) => {
+          event.preventDefault();
+          props.onButtonClick(props.value);
+        }}
+      >
+        <Typography variant="button"> {props.value}</Typography>
+      </Button>
     </div>
   );
 };

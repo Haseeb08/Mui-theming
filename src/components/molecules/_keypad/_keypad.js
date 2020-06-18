@@ -6,14 +6,15 @@ const useStyles = makeStyles((theme) => ({
   keyPad: {
     display: "flex",
     flexDirection: "column",
+    margin: "7px",
   },
 
   keyRow: {
     display: "flex",
     flexDirection: "row",
-    flex: '1',
-    width: '100%',
-   
+    justifyContent: "space-around",
+    flex: "1",
+    width: "100%",
   },
 
 }));
@@ -21,39 +22,41 @@ const useStyles = makeStyles((theme) => ({
 function KeyPad(props) {
   const classes = useStyles();
 
+  const onButtonClick = (value) => {
+    props.handleClick(value);
+  };
+
   return (
     <div className={classes.keyPad}>
-        <div className={classes.keyRow}>
-        <Button value={"AC"} inputValue={props.inputValue} setInputValue={props.setInputValue} />
-        <Button value={"<="} inputValue={props.inputValue} setInputValue={props.setInputValue} />
+      <div className={classes.keyRow}>
+        <Button value={"AC"} onButtonClick={onButtonClick} />
+        <Button value={"<="} onButtonClick={onButtonClick} />
       </div>
       <div className={classes.keyRow}>
-        <Button value={9} inputValue={props.inputValue} setInputValue={props.setInputValue} color={"primary"} />
-        <Button value={8} inputValue={props.inputValue} setInputValue={props.setInputValue} color={"primary"} />
-        <Button value={7} inputValue={props.inputValue} setInputValue={props.setInputValue} color={"primary"} />
-        <Button value={"+"} inputValue={props.inputValue} setInputValue={props.setInputValue} color={"secondary"} />
+        <Button value={9} color={"primary"} onButtonClick={onButtonClick} />
+        <Button value={8} color={"primary"} onButtonClick={onButtonClick} />
+        <Button value={7} color={"primary"} onButtonClick={onButtonClick} />
+        <Button value={"+"} color={"secondary"} onButtonClick={onButtonClick} />
       </div>
       <div className={classes.keyRow}>
-        <Button value={6} inputValue={props.inputValue} setInputValue={props.setInputValue} color={"primary"} />
-        <Button value={5} inputValue={props.inputValue} setInputValue={props.setInputValue} color={"primary"} />
-        <Button value={4} inputValue={props.inputValue} setInputValue={props.setInputValue} color={"primary"} />
-        <Button value={"-"} inputValue={props.inputValue} setInputValue={props.setInputValue} color={"secondary"} />
+        <Button value={6} color={"primary"} onButtonClick={onButtonClick} />
+        <Button value={5} color={"primary"} onButtonClick={onButtonClick} />
+        <Button value={4} color={"primary"} onButtonClick={onButtonClick} />
+        <Button value={"-"} color={"secondary"} onButtonClick={onButtonClick} />
       </div>
       <div className={classes.keyRow}>
-        <Button value={3} inputValue={props.inputValue} setInputValue={props.setInputValue} color={"primary"} />
-        <Button value={2} inputValue={props.inputValue} setInputValue={props.setInputValue} color={"primary"} />
-        <Button value={1} inputValue={props.inputValue} setInputValue={props.setInputValue} color={"primary"} />
-        <Button value={"*"} inputValue={props.inputValue} setInputValue={props.setInputValue} color={"secondary"} />
+        <Button value={3} color={"primary"} onButtonClick={onButtonClick} />
+        <Button value={2} color={"primary"} onButtonClick={onButtonClick} />
+        <Button value={1} color={"primary"} onButtonClick={onButtonClick} />
+        <Button value={"*"} color={"secondary"} onButtonClick={onButtonClick} />
       </div>
       <div className={classes.keyRow}>
-        <Button value={0} inputValue={props.inputValue} setInputValue={props.setInputValue} color={"primary"} />
-        <Button value={"."} inputValue={props.inputValue} setInputValue={props.setInputValue} color={"primary"} />
-        <Button value={"="} inputValue={props.inputValue} setInputValue={props.setInputValue} color={"primary"} />
-        <Button value={"/"} inputValue={props.inputValue} setInputValue={props.setInputValue} color={"secondary"} />
+        <Button value={0} color={"primary"} onButtonClick={onButtonClick} />
+        <Button value={"."} color={"primary"} onButtonClick={onButtonClick} />
+        <Button value={"="} onButtonClick={onButtonClick} />
+        <Button value={"/"} color={"secondary"} onButtonClick={onButtonClick} />
       </div>
     </div>
-
-  
   );
 }
 export default KeyPad;

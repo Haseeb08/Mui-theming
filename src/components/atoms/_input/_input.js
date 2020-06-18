@@ -1,16 +1,18 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
+import {myTheme} from "../../../theme";
+
 const useStyles = makeStyles((theme) => ({
   input: {
-    height: "3.4em",
+    height: "2.1em",
     display: "flex",
     justifyContent: "flex-end",
     alignItems: "center",
     fontWeight: "bold",
     fontSize: "1.4em",
     backgroundColor: "#000000",
-    color: "#ffffff",
-    padding: theme.spacing(1),
+    paddingRight: "10px",
+    color: myTheme.palette.text.primary,
   },
 }));
 
