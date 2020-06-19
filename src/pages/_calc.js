@@ -1,6 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import Calculator from "../components/organisms/_keys/_calculator";
+import Calculator from "../_components/organisms/_calculator/_calculator";
 import {myTheme} from "../theme";
 
 const useStyles = makeStyles((theme) => ({
@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
 function CalcPage() {
   const classes = useStyles();
   return (
-    <div className={classes.root}>
+    <div data-testid="calc-page" className={classes.root}>
       <Calculator />
     </div>
   );

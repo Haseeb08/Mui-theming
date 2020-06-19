@@ -1,0 +1,605 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Keypad testing Matches the snapshot 1`] = `
+<div
+  className="makeStyles-keyPad-1"
+  data-testid="keypad"
+>
+  <div
+    className="makeStyles-keyRow-2"
+  >
+    <div>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-largeButton-4 [object Object]"
+        data-testid="button"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-button"
+          >
+             
+            AC
+          </span>
+        </span>
+      </button>
+    </div>
+    <div>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-largeButton-4 [object Object]"
+        data-testid="button"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-button"
+          >
+             
+            &lt;=
+          </span>
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    className="makeStyles-keyRow-2"
+  >
+    <div>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-btn-3 [object Object] MuiButton-containedPrimary"
+        data-testid="button"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-button"
+          >
+             
+            9
+          </span>
+        </span>
+      </button>
+    </div>
+    <div>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-btn-3 [object Object] MuiButton-containedPrimary"
+        data-testid="button"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-button"
+          >
+             
+            8
+          </span>
+        </span>
+      </button>
+    </div>
+    <div>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-btn-3 [object Object] MuiButton-containedPrimary"
+        data-testid="button"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-button"
+          >
+             
+            7
+          </span>
+        </span>
+      </button>
+    </div>
+    <div>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-btn-3 [object Object] MuiButton-containedSecondary"
+        data-testid="button"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-button"
+          >
+             
+            +
+          </span>
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    className="makeStyles-keyRow-2"
+  >
+    <div>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-btn-3 [object Object] MuiButton-containedPrimary"
+        data-testid="button"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-button"
+          >
+             
+            6
+          </span>
+        </span>
+      </button>
+    </div>
+    <div>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-btn-3 [object Object] MuiButton-containedPrimary"
+        data-testid="button"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-button"
+          >
+             
+            5
+          </span>
+        </span>
+      </button>
+    </div>
+    <div>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-btn-3 [object Object] MuiButton-containedPrimary"
+        data-testid="button"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-button"
+          >
+             
+            4
+          </span>
+        </span>
+      </button>
+    </div>
+    <div>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-btn-3 [object Object] MuiButton-containedSecondary"
+        data-testid="button"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-button"
+          >
+             
+            -
+          </span>
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    className="makeStyles-keyRow-2"
+  >
+    <div>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-btn-3 [object Object] MuiButton-containedPrimary"
+        data-testid="button"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-button"
+          >
+             
+            3
+          </span>
+        </span>
+      </button>
+    </div>
+    <div>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-btn-3 [object Object] MuiButton-containedPrimary"
+        data-testid="button"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-button"
+          >
+             
+            2
+          </span>
+        </span>
+      </button>
+    </div>
+    <div>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-btn-3 [object Object] MuiButton-containedPrimary"
+        data-testid="button"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-button"
+          >
+             
+            1
+          </span>
+        </span>
+      </button>
+    </div>
+    <div>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-btn-3 [object Object] MuiButton-containedSecondary"
+        data-testid="button"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-button"
+          >
+             
+            *
+          </span>
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    className="makeStyles-keyRow-2"
+  >
+    <div>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-btn-3 [object Object] MuiButton-containedPrimary"
+        data-testid="button"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-button"
+          >
+             
+            0
+          </span>
+        </span>
+      </button>
+    </div>
+    <div>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-btn-3 [object Object] MuiButton-containedPrimary"
+        data-testid="button"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-button"
+          >
+             
+            .
+          </span>
+        </span>
+      </button>
+    </div>
+    <div>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-btn-3 makeStyles-equalButton-5"
+        data-testid="button"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-button"
+          >
+             
+            =
+          </span>
+        </span>
+      </button>
+    </div>
+    <div>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-btn-3 [object Object] MuiButton-containedSecondary"
+        data-testid="button"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-button"
+          >
+             
+            /
+          </span>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;

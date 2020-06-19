@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input testing Matches the snapshot 1`] = `
+<div
+  className="makeStyles-input-1"
+  data-testid="input"
+>
+  1+2+3
+</div>
+`;

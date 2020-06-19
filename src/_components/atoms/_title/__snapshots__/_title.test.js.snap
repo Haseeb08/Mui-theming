@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title field testing Matches the snapshot 1`] = `
+<h3
+  className="MuiTypography-root MuiTypography-h3"
+  data-testid="title"
+>
+  My Calculator
+</h3>
+`;

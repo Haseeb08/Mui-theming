@@ -4,6 +4,7 @@ import Title from "../../atoms/_title/_title";
 import Input from "../../atoms/_input/_input";
 import KeyPad from "../../molecules/_keypad/_keypad";
 
+
 const useStyles = makeStyles((theme) => ({
   calcWrapper: {
     width: "auto",
@@ -27,9 +28,9 @@ function Calculator() {
         setInputValue("");
         break;
       case "<=":
-        var str = inputValue;
-        var val = str.substring(0, str.length - 1);
-        setInputValue(val);
+        //var str = inputValue;
+        //var val = str.substring(0, str.length - 1);
+        setInputValue(inputValue.substring(0, inputValue.length - 1));
         break;
       case "=":
         console.log("value :", inputValue);
@@ -48,10 +49,10 @@ function Calculator() {
   };
 
   return (
-    <div className={classes.calcWrapper}>
+    <div data-testid="calculator" className={classes.calcWrapper}>
       <Title title={"MUI Calculator"} />  
-      <hr style={{margin:0}}></hr> 
-      <Input input={inputValue} />  
+      <hr style={{margin:0}}></hr>
+      <Input  input={inputValue} />  
       <hr  style={{margin:0}}></hr>     
       <KeyPad handleClick={handleClick} />   
     </div>

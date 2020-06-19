@@ -27,7 +27,7 @@ function KeyPad(props) {
   };
 
   return (
-    <div className={classes.keyPad}>
+    <div className={classes.keyPad} data-testid="keypad" >
       <div className={classes.keyRow}>
         <Button value={"AC"} onButtonClick={onButtonClick} />
         <Button value={"<="} onButtonClick={onButtonClick} />

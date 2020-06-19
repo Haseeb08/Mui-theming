@@ -33,11 +33,12 @@ const CalcButton = (props) => {
           " " +
           (props.value === "=" ? classes.equalButton : {})
         }
+        data-testid="button"
         color={props.color}
         size="medium"
         variant="contained"
         onClick={(event) => {
-          event.preventDefault();
+         event.preventDefault();
           props.onButtonClick(props.value);
         }}
       >

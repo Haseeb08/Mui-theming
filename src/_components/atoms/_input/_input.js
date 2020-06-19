@@ -1,6 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import {myTheme} from "../../../theme";
+import { myTheme } from "../../../theme";
 
 const useStyles = makeStyles((theme) => ({
   input: {
@@ -18,10 +18,10 @@ const useStyles = makeStyles((theme) => ({
 
 function Input(props) {
   const classes = useStyles();
-  return <div className={classes.input}>{props.input}</div>;
+  return <div data-testid="input" className={classes.input}>{props.input}</div>;
 }
 Input.defaultProps = {
-  input: "47382",
+  input: "1+2+3",
 };
 
 export default Input;
